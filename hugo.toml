@@ -4,14 +4,14 @@ baseURL = "https://tianzhongxun.netlify.app/"
 theme = "LoveIt"
 
 # website title
-title = "My New Hugo Site"
+title = "田仲勋的博客"
 
-# # language code ["en", "zh-CN", "fr", "pl", ...]
-# languageCode = "en"
-# # language name ["English", "简体中文", "Français", "Polski", ...]
-# languageName = "English"
-# # whether to include Chinese/Japanese/Korean
-# hasCJKLanguage = true
+# language code ["en", "zh-CN", "fr", "pl", ...]
+languageCode = "en"
+# language name ["English", "简体中文", "Français", "Polski", ...]
+languageName = "English"
+# whether to include Chinese/Japanese/Korean
+hasCJKLanguage = true
 
 # default amount of posts in each pages
 paginate = 12
@@ -36,101 +36,101 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   email = "690241728@qq.com"
   link = ""
 
-# # Menu config
-# [menu]
-#   [[menu.main]]
-#     weight = 1
-#     identifier = "posts"
-#     # you can add extra information before the name (HTML format is supported), such as icons
-#     pre = ""
-#     # you can add extra information after the name (HTML format is supported), such as icons
-#     post = ""
-#     name = "Posts"
-#     url = "/posts/"
-#     # title will be shown when you hover on this menu link
-#     title = ""
-#   [[menu.main]]
-#     weight = 2
-#     identifier = "tags"
-#     pre = ""
-#     post = ""
-#     name = "Tags"
-#     url = "/tags/"
-#     title = ""
-#   [[menu.main]]
-#     weight = 3
-#     identifier = "categories"
-#     pre = ""
-#     post = ""
-#     name = "Categories"
-#     url = "/categories/"
-#     title = ""
+# Menu config
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
 
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
-defaultContentLanguage = "en"
+# defaultContentLanguage = "en"
 
-[languages]
-  [languages.en]
-    weight = 1
-    title = "My New Hugo Site"
-    languageCode = "en"
-    languageName = "English"
-    [[languages.en.menu.main]]
-      weight = 1
-      identifier = "posts"
-      pre = ""
-      post = ""
-      name = "Posts"
-      url = "/posts/"
-      title = ""
-    [[languages.en.menu.main]]
-      weight = 2
-      identifier = "tags"
-      pre = ""
-      post = ""
-      name = "Tags"
-      url = "/tags/"
-      title = ""
-    [[languages.en.menu.main]]
-      weight = 3
-      identifier = "categories"
-      pre = ""
-      post = ""
-      name = "Categories"
-      url = "/categories/"
-      title = ""
+# [languages]
+#   [languages.en]
+#     weight = 1
+#     title = "My New Hugo Site"
+#     languageCode = "en"
+#     languageName = "English"
+#     [[languages.en.menu.main]]
+#       weight = 1
+#       identifier = "posts"
+#       pre = ""
+#       post = ""
+#       name = "Posts"
+#       url = "/posts/"
+#       title = ""
+#     [[languages.en.menu.main]]
+#       weight = 2
+#       identifier = "tags"
+#       pre = ""
+#       post = ""
+#       name = "Tags"
+#       url = "/tags/"
+#       title = ""
+#     [[languages.en.menu.main]]
+#       weight = 3
+#       identifier = "categories"
+#       pre = ""
+#       post = ""
+#       name = "Categories"
+#       url = "/categories/"
+#       title = ""
 
-  [languages.zh-cn]
-    weight = 2
-    title = "我的全新 Hugo 网站"
-    languageCode = "zh-CN"
-    languageName = "简体中文"
-    hasCJKLanguage = true
-    [[languages.zh-cn.menu.main]]
-      weight = 1
-      identifier = "posts"
-      pre = ""
-      post = ""
-      name = "文章"
-      url = "/posts/"
-      title = ""
-    [[languages.zh-cn.menu.main]]
-      weight = 2
-      identifier = "tags"
-      pre = ""
-      post = ""
-      name = "标签"
-      url = "/tags/"
-      title = ""
-    [[languages.zh-cn.menu.main]]
-      weight = 3
-      identifier = "categories"
-      pre = ""
-      post = ""
-      name = "分类"
-      url = "/categories/"
-      title = ""
+#   [languages.zh-cn]
+#     weight = 2
+#     title = "我的全新 Hugo 网站"
+#     languageCode = "zh-CN"
+#     languageName = "简体中文"
+#     hasCJKLanguage = true
+#     [[languages.zh-cn.menu.main]]
+#       weight = 1
+#       identifier = "posts"
+#       pre = ""
+#       post = ""
+#       name = "文章"
+#       url = "/posts/"
+#       title = ""
+#     [[languages.zh-cn.menu.main]]
+#       weight = 2
+#       identifier = "tags"
+#       pre = ""
+#       post = ""
+#       name = "标签"
+#       url = "/tags/"
+#       title = ""
+#     [[languages.zh-cn.menu.main]]
+#       weight = 3
+#       identifier = "categories"
+#       pre = ""
+#       post = ""
+#       name = "分类"
+#       url = "/categories/"
+#       title = ""
 
 [params]
   # site default theme ["auto", "light", "dark"]
@@ -145,14 +145,14 @@ defaultContentLanguage = "en"
   # website title for Open Graph and Twitter Cards
   title = "My cool site"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "This is my cool site"
+  description = "Zhongxun's blog"
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
 
   # Header config
   [params.header]
     # desktop header mode ["fixed", "normal", "auto"]
-    desktopMode = "fixed"
+    desktopMode = "auto"
     # mobile header mode ["fixed", "normal", "auto"]
     mobileMode = "auto"
     #  Header title config
@@ -160,7 +160,7 @@ defaultContentLanguage = "en"
       # URL of the LOGO
       logo = ""
       # title name
-      name = "ZHONGXUN'S SECRET GARDEN"
+      name = "田仲勋的博客"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -255,7 +255,7 @@ defaultContentLanguage = "en"
       #  title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "This is My New Hugo Site"
+      subtitle = "欢 迎 光 临 我 的 秘 密 花 园，进 来 坐 坐 吧"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
