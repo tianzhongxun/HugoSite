@@ -1,9 +1,9 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+title: "yamlTest"
 subtitle: ""
-date: {{ .Date }}
-lastmod: {{ .Date }}
-draft: true
+date: 2024-08-30T22:47:19+08:00
+lastmod: 2024-08-30T22:47:19+08:00
+draft: false
 author: ""
 authorLink: ""
 description: ""
@@ -11,7 +11,7 @@ license: ""
 images: []
 
 tags: []
-categories: []
+categories: ["cate1"]
 
 featuredImage: ""
 featuredImagePreview: ""
@@ -60,3 +60,7 @@ seo:
 ---
 
 <!--more-->
+
+
+this is index
+

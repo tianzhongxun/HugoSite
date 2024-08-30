@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://tianzhongxun.netlify.app/"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -6,12 +6,12 @@ theme = "LoveIt"
 # website title
 title = "My New Hugo Site"
 
-# language code ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "en"
-# language name ["English", "简体中文", "Français", "Polski", ...]
-languageName = "English"
-# whether to include Chinese/Japanese/Korean
-hasCJKLanguage = false
+# # language code ["en", "zh-CN", "fr", "pl", ...]
+# languageCode = "en"
+# # language name ["English", "简体中文", "Français", "Polski", ...]
+# languageName = "English"
+# # whether to include Chinese/Japanese/Korean
+# hasCJKLanguage = true
 
 # default amount of posts in each pages
 paginate = 12
@@ -32,39 +32,105 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Author config
 [author]
-  name = "xxxx"
-  email = ""
+  name = "Zhongxun"
+  email = "690241728@qq.com"
   link = ""
 
-# Menu config
-[menu]
-  [[menu.main]]
+# # Menu config
+# [menu]
+#   [[menu.main]]
+#     weight = 1
+#     identifier = "posts"
+#     # you can add extra information before the name (HTML format is supported), such as icons
+#     pre = ""
+#     # you can add extra information after the name (HTML format is supported), such as icons
+#     post = ""
+#     name = "Posts"
+#     url = "/posts/"
+#     # title will be shown when you hover on this menu link
+#     title = ""
+#   [[menu.main]]
+#     weight = 2
+#     identifier = "tags"
+#     pre = ""
+#     post = ""
+#     name = "Tags"
+#     url = "/tags/"
+#     title = ""
+#   [[menu.main]]
+#     weight = 3
+#     identifier = "categories"
+#     pre = ""
+#     post = ""
+#     name = "Categories"
+#     url = "/categories/"
+#     title = ""
+
+
+# determines default content language ["en", "zh-cn", "fr", "pl", ...]
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
     weight = 1
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "Posts"
-    url = "/posts/"
-    # title will be shown when you hover on this menu link
-    title = ""
-  [[menu.main]]
+    title = "My New Hugo Site"
+    languageCode = "en"
+    languageName = "English"
+    [[languages.en.menu.main]]
+      weight = 1
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Posts"
+      url = "/posts/"
+      title = ""
+    [[languages.en.menu.main]]
+      weight = 2
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Tags"
+      url = "/tags/"
+      title = ""
+    [[languages.en.menu.main]]
+      weight = 3
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categories"
+      url = "/categories/"
+      title = ""
+
+  [languages.zh-cn]
     weight = 2
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
-  [[menu.main]]
-    weight = 3
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
+    title = "我的全新 Hugo 网站"
+    languageCode = "zh-CN"
+    languageName = "简体中文"
+    hasCJKLanguage = true
+    [[languages.zh-cn.menu.main]]
+      weight = 1
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "文章"
+      url = "/posts/"
+      title = ""
+    [[languages.zh-cn.menu.main]]
+      weight = 2
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "标签"
+      url = "/tags/"
+      title = ""
+    [[languages.zh-cn.menu.main]]
+      weight = 3
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "分类"
+      url = "/categories/"
+      title = ""
 
 [params]
   # site default theme ["auto", "light", "dark"]
@@ -94,7 +160,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # URL of the LOGO
       logo = ""
       # title name
-      name = ""
+      name = "ZHONGXUN'S SECRET GARDEN"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -114,7 +180,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     #  whether to show the author
     author = true
     # Site creation time
-    since = 2019
+    since = 2024
     # ICP info only in China (HTML format is supported)
     icp = ""
     # license info (HTML format is supported)
@@ -145,7 +211,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
-    svgFavicon = ""
+    svgFavicon = "/images/ikun.jfif"
     # Android browser theme color
     themeColor = "#ffffff"
     # Safari mask icon color
@@ -185,7 +251,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/images/avatar.png"
+      avatarURL = "/images/ikun.jfif"
       #  title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page (HTML format is supported)
@@ -618,4 +684,4 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
+  # taxonomyTerm = ["HTML"]
